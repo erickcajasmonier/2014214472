@@ -25,17 +25,26 @@ namespace _2014214472
         {
             _Carro.Remove(carro);
         }
-        public void IniciarPersonalizacion()
+        public void IniciarPersonalizacion(string num )
         {
-           // Carro _numChasis= _numChasis
-        }
-        public void FinalizarPersonalizacion()
-        {
+            Carro _numChasis = _Carro.Find(t => t.NumSerieChasis == num);
+
+            Console.WriteLine("Personalizacion iniciada: {0}", num);
 
         }
-        public void EnsamblarCarro()
+        public void FinalizarPersonalizacion(string num)
         {
+            Carro _numChasis = _Carro.Find(t => t.NumSerieChasis == num);
 
+            Console.WriteLine("Personalizacion finalizada: {0}", num);
         }
+        public void EnsamblarCarro(TipoCarro tipocarro, TipoAuto tipoauto, TipoBus tipobus)
+        {
+           // if (tipoauto = TipoAuto.Coupe)
+           // {
+                
+           // }
+        }
+
     }
 }
