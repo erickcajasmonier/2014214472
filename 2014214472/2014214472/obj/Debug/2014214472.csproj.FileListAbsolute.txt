@@ -3,3 +3,12 @@ C:\Users\Clase\Documents\Visual Studio 2013\Projects\2014214472\2014214472\20142
 C:\Users\Clase\Documents\Visual Studio 2013\Projects\2014214472\2014214472\2014214472\bin\Debug\2014214472.pdb
 C:\Users\Clase\Documents\Visual Studio 2013\Projects\2014214472\2014214472\2014214472\obj\Debug\2014214472.exe
 C:\Users\Clase\Documents\Visual Studio 2013\Projects\2014214472\2014214472\2014214472\obj\Debug\2014214472.pdb
+C:\Users\AlonsoMD\Desktop\2014214472\2014214472\bin\Debug\2014214472.exe.config
+C:\Users\AlonsoMD\Desktop\2014214472\2014214472\obj\Debug\2014214472.exe
+C:\Users\AlonsoMD\Desktop\2014214472\2014214472\obj\Debug\2014214472.pdb
+C:\Users\AlonsoMD\Desktop\2014214472\2014214472\bin\Debug\2014214652.exe.config
+C:\Users\Cajas\Desktop\2014214472\2014214472\bin\Debug\2014214652.exe.config
+C:\Users\Cajas\Desktop\2014214472\2014214472\obj\Debug\2014214652.exe
+C:\Users\Cajas\Desktop\2014214472\2014214472\obj\Debug\2014214652.pdb
+C:\Users\Cajas\Desktop\2014214472\2014214472\bin\Debug\2014214652.exe
+C:\Users\Cajas\Desktop\2014214472\2014214472\bin\Debug\2014214652.pdb

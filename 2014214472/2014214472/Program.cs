@@ -10,37 +10,40 @@ namespace _2014214472
     {
         static void Main(string[] args)
         {
+
             var numchasis1 = "124124125";
-            var numchasis2 = "1231243";
-            var numchasis3 = "64767854";
-            var numchasis4 = "3426487";
-            var numchasis5 = "1265473";
+            var numchasis2 = "123124312";
+            var numchasis3 = "133232232";
+            var numchasis4 = "123122222";
+            var numchasis5 = "546545645";
             var numchasis6 = "568790897";
 
+            
+            var ensambladora = new Ensambladora();
 
-            var central = new Ensambladora();
-
-            //central.Agregar( carro);
+            //central.Agregar(carro);
             //central.Agregar(carro);
 
 
-            central.IniciarPersonalizacion(numchasis1);
-            central.FinalizarPersonalizacion(numchasis1);
+            ensambladora.IniciarPersonalizacion(numchasis1);
+            ensambladora.FinalizarPersonalizacion(numchasis1);
 
-            central.IniciarPersonalizacion(numchasis2);
-            central.FinalizarPersonalizacion(numchasis2);
+            ensambladora.IniciarPersonalizacion(numchasis2);
+            ensambladora.FinalizarPersonalizacion(numchasis2);
 
-            central.IniciarPersonalizacion(numchasis3);
-            central.FinalizarPersonalizacion(numchasis3);
+            ensambladora.IniciarPersonalizacion(numchasis3);
+            ensambladora.FinalizarPersonalizacion(numchasis3);
 
-            central.IniciarPersonalizacion(numchasis4);
-            central.FinalizarPersonalizacion(numchasis4);
+            ensambladora.IniciarPersonalizacion(numchasis4);
+            ensambladora.FinalizarPersonalizacion(numchasis4);
 
-            central.IniciarPersonalizacion(numchasis5);
-            central.FinalizarPersonalizacion(numchasis5);
+            ensambladora.IniciarPersonalizacion(numchasis5);
+            ensambladora.FinalizarPersonalizacion(numchasis5);
 
-            central.IniciarPersonalizacion(numchasis6);
-            central.FinalizarPersonalizacion(numchasis6);
+            ensambladora.IniciarPersonalizacion(numchasis6);
+            ensambladora.FinalizarPersonalizacion(numchasis6);
+
+            Console.ReadKey();
 
         }
 

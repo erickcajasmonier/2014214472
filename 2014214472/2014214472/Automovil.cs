@@ -8,11 +8,18 @@ namespace _2014214472
 {
     class Automovil:Carro
     {
+        
+        //private Volante _Volante;
+        //private Parabrisas _Parabrisas;
+        //private Bus _Bus;
+        
 
-        public Automovil():base()
+        public Automovil(TipoAuto tipoauto)
+            :base()
         {
             
         }
+
 
     }
 }

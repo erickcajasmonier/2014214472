@@ -13,7 +13,7 @@ namespace _2014214472
         PickUp,
         Coupe,
         HatchBack,
-        NoDefinido,
+        NoDefinido
     }
 
 

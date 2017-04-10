@@ -9,16 +9,30 @@ namespace _2014214472
     public class Asiento
     {
         public string NumSerie { get; set; }
-        private Cinturon _Cinturon;
+        private Cinturon Cinturon;
+        
 
         public Asiento()
         {
 
         }
-        public Asiento(string numserie, Cinturon cintu)
+        public Asiento(string numserie)
         {
+            
             NumSerie = numserie;
-            _Cinturon = cintu;
+            Cinturon = new Cinturon(generar_Serie_Cinturon(), generar_Metraje());
+        }
+
+        public string generar_Serie_Cinturon()
+        {
+            Random r = new Random();
+            return r.Next(100, 250).ToString();
+        }
+
+        public int generar_Metraje()
+        {
+            Random r = new Random();
+            return r.Next(100, 250);
         }
 
     }

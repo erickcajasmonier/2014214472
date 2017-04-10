@@ -8,29 +8,38 @@ namespace _2014214472
 {
     public abstract class Carro
     {
+
+        private Volante Volante;
+        private Parabrisas Parabrisas;
         public string NumSerieMotor { get; set; }
         public string NumSerieChasis { get; set; }
-        private Volante _Volante;
-        private Parabrisas _Parabrisas;
-        private Llanta _Llanta;
-        private Asiento _Asiento;
+        
+        public int _Llanta { get; set; }
+        public int _Asiento { get; set; }
+
         private Bus _Bus;
+
+
 
         public Carro()
         {
 
         }
 
-        public Carro(string numseriemotor, string numseriechasis,Volante volan,
-            Parabrisas parabri, Llanta llant, Asiento asien, Bus bu)
+        public Carro(string numseriemotor, string numseriechasis,string volante,
+            Parabrisas parabrisas, int llanta, int asiento, Bus bus)
         {
             NumSerieMotor = numseriemotor;
             NumSerieChasis = numseriechasis;
-            _Volante = volan;
-            _Parabrisas = parabri;
-            _Llanta = llant;
-            _Asiento = asien;
-            _Bus = bu;
+            Volante = new Volante(volante);
+            Parabrisas = parabrisas;
+            _Llanta = llanta;
+            _Asiento = asiento;
+            _Bus = bus;
+    }
+
+        public virtual void Numero_Llantas(TipoCarro tipocarro)
+        {
         }
 
 

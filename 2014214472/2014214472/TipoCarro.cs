@@ -9,6 +9,6 @@ namespace _2014214472
     public enum TipoCarro
     {
         Automovil,
-        Bus,
+        Bus
     }
 }

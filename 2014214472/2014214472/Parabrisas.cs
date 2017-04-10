@@ -8,7 +8,7 @@ namespace _2014214472
 {
     public class Parabrisas
     {
-        public string NumSerie { get; set; }
+        private string NumSerie { get; set; }
 
         public Parabrisas()
         {

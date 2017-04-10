@@ -10,6 +10,6 @@ namespace _2014214472
     {
         Publico,
         Privado,
-        NoDefinido,
+        NoDefinido
     }
 }
